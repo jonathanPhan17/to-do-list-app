@@ -18,8 +18,8 @@ function App() {
         <Navbar />
       </header>
       <main className="min-h-screen">
-        <Routes>
-          <Route path="/" element={<Card />} />
+        <Routes path="/to-do-list-app/">
+          <Route path="/to-do-list-app/" element={<Card />} />
           <Route path="/contact" element={<ContactForm />} />
         </Routes>
       </main>
